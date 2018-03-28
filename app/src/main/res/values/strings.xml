@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AIO</string>
+    <string name="google_maps_key">AIzaSyDaWZUe0GVPcYMm2jR2GP9KByCfwlE9ab8</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

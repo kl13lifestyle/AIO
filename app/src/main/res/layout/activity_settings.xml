@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home1"
+    tools:context="com.example.mithun.aio.SettingsActivity">
+
+<Button
+    android:id="@+id/phoneState"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="REQUEST PHONE STATE"
+    android:onClick="getPhoneStatePermission"/>
+<Button
+    android:id="@+id/smsPermission"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/phoneState"
+    android:text="REQUEST SMS"
+    android:onClick="getSMSPermission"/>
+<Button
+    android:id="@+id/notificationPermission"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/smsPermission"
+    android:text="REQUEST NOTIFICATION"
+    android:onClick="getNotificationPermission"/>
+<Button
+    android:id="@+id/getAllAppList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/notificationPermission"
+    android:text="GET APP LIST"
+    android:onClick="openAppList"/>
+
+</RelativeLayout>
